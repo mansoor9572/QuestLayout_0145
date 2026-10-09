@@ -98,7 +98,7 @@ fun TampilanPertemuan4(modifier: Modifier = Modifier) {
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Image(
-                    painter = painterResource(id = R.drawable.umy),
+                    painter = painterResource(id = R.drawable.umy_logo),
                     contentDescription = "Logo UMY",
                     contentScale = ContentScale.Crop,
                     modifier = Modifier

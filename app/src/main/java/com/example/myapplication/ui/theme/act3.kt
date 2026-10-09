@@ -53,7 +53,7 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             )
         ) {
             Row() { //row nya dalam card
-                val gambar = painterResource(R.drawable.logo_umy)
+                val gambar = painterResource(R.drawable.umy_logo)
                 Image(
                     painter = gambar,
                     contentDescription = null,
