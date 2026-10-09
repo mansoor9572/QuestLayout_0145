@@ -27,7 +27,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontStyle
@@ -89,7 +88,7 @@ fun TampilanPertemuan4(modifier: Modifier = Modifier) {
                 .padding(horizontal = 4.dp),
             shape = RoundedCornerShape(24.dp),
             colors = CardDefaults.cardColors(
-                containerColor = colorResource(id = R.color.card_0_bg)
+                containerColor = Color(0xFF78909C)
             )
         ) {
             Row(
@@ -100,7 +99,7 @@ fun TampilanPertemuan4(modifier: Modifier = Modifier) {
             ) {
                 Image(
                     painter = painterResource(id = R.drawable.umy),
-                    contentDescription = "Logo",
+                    contentDescription = "Logo UMY",
                     contentScale = ContentScale.Crop,
                     modifier = Modifier
                         .size(70.dp)
