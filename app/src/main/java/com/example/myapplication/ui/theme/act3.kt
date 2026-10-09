@@ -33,7 +33,7 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
             fontWeight = FontWeight.Bold
         )
         Text(
-            text = stringResource(R.string.univ),
+            stringResource(R.string.univ),
             fontSize = 22.sp
         )
         Spacer(modifier = Modifier.height(25.dp))
@@ -45,7 +45,7 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
                 containerColor = Color.DarkGray
             )
         ) {
-            // Card content
+            // Card content continues...
         }
     }
 }
